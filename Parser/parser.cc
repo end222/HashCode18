@@ -26,7 +26,7 @@ void readInput(simulation& s){
 		simulationInfo[j] = atoi(strtok(line, delim));
 		while(j < 5){
 			j++;
-			simulationInfo[i] = atoi(strtok(NULL,delim));
+			simulationInfo[j] = atoi(strtok(NULL,delim));
 		}
 		ride r;
 		enterInfoRide(r, simulationInfo[0],simulationInfo[1],simulationInfo[2],simulationInfo[3],simulationInfo[4],simulationInfo[5]);
