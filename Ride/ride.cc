@@ -11,8 +11,8 @@
 
 void enterInfoRide(ride& r,int a, int b, int x, int y, int earliest, int latest){
 	r.startRow = a;
-	r.startRow = b;
-	r.startColumn = x;
+	r.startColumn = b;
+	r.finishRow = x;
 	r.finishColumn = y;
 	r.earliestStart = earliest;
 	r.latestFinish = latest;
