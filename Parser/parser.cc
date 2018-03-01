@@ -31,6 +31,7 @@ void readInput(simulation& s){
 		ride r;
 		enterInfoRide(r, simulationInfo[0],simulationInfo[1],simulationInfo[2],simulationInfo[3],simulationInfo[4],simulationInfo[5]);
 		addRide(s, r);
+		i++;
 	}
 }
 
