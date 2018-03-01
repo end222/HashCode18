@@ -16,4 +16,4 @@ struct ride {
 	int distance;
 };
 
-void enterInfoRide(int a, int b, int x, int y, int earliest, int latest);
+void enterInfoRide(ride& r, int a, int b, int x, int y, int earliest, int latest);
