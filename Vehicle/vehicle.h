@@ -1,6 +1,7 @@
 
 
 struct vehicle {
+	int id;
 	int rowEnd;
 	int colEnd;
 };
